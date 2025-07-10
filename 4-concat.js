@@ -1,4 +1,4 @@
-const args = process.argv.slice(2);
+
 function printTwoArguments(arg1, arg2) {
     if (arg1 && arg2) {
         console.log(`${arg1} is ${arg2}`);
