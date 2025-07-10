@@ -17,8 +17,8 @@ else if (args.length > 2) {
     console.log(`${firstArg} is concatenated with ${secondArg}`);
 }
 else if (args.length === 1) {
-    console.log("No arguments");
-    console.log(`${firstArg} is concatenated with ${secondArg}`);
+    const firstArg = args[0];
+    console.log(`${firstArg} is concatenated with nothing`);
 }
 else {
     console.log("No arguments");
