@@ -14,3 +14,4 @@ function printTwoArguments(arg1, arg2) {
     }
 }
 printTwoArguments(args[0], args[1]);
+
