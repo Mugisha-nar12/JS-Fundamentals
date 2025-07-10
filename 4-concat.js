@@ -2,9 +2,9 @@ const args = process.argv.slice(2);
 
 function printArguments([firstArg, secondArg]) {
     if (!firstArg) {
-        console.log("0 argument");
+        console.log(" ");
     } else if (!secondArg) {
-        console.log(firstArg);
+        console.log(`${firstArg}`);
     } else {
         console.log(`${firstArg} is ${secondArg}`);
     }
