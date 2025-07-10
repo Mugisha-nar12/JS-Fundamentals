@@ -4,7 +4,7 @@ function printArguments([firstArg, secondArg]) {
     if (!firstArg) {
         console.log(" ");
     } else if (!secondArg) {
-        console.log(`${firstArg}`);
+        console.log(`${firstArg}`.toUpperCase());
     } else {
         console.log(`${firstArg} is ${secondArg}`);
     }
