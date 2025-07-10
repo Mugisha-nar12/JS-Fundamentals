@@ -5,6 +5,6 @@ while(i< languages.length){
     i++;
 }
 // for loop
-for(let i=0; i< languages.length; i++){
-    console.log(languages[i]);
-}
+// for(let i=0; i< languages.length; i++){
+//     console.log(languages[i]);
+// }
