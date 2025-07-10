@@ -1,17 +1,16 @@
+
 const args = process.argv.slice(2);
-function printTwoArguments(arg1, arg2) {
-    if (arg1 && arg2) {
-        console.log(`${arg1} is ${arg2}`);
-    }
-    else if (arg1) {
-        console.log(`${arg1} is `);
-    }
-    else if (arg2) {
-        console.log(` is ${arg2}`);
-    }
-    else {
-        console.log("No argument");
+const firstArg = args[0];
+const secondArg = args[1];
+function printArguments() {
+    if (firstArg && secondArg) {
+        console.log(`${firstArg} is ${secondArg}`);
+    } else if (firstArg) {
+        console.log(`${firstArg} is `);
+    } else if (secondArg) {
+        console.log(` is ${secondArg}`);
+    } else {
+        console.log("No arguments");
     }
 }
-printTwoArguments(args[0], args[1]);
-
+printArguments();
