@@ -9,12 +9,12 @@ if (args.length < 2) {
 else if (args.length === 2) {
     const firstArg = args[0];
     const secondArg = args[1];
-    console.log(`${firstArg} is concatenated with ${secondArg}`);
+    console.log(`${firstArg} is  ${secondArg}`);
 }
 else if (args.length > 2) {
     const firstArg = args[0];
     const secondArg = args[1];
-    console.log(`${firstArg} is concatenated with ${secondArg}`);
+    console.log(`${firstArg} is  ${secondArg}`);
 }
 else if (args.length === 1) {
     const firstArg = args[0];
