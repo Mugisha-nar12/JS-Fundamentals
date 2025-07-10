@@ -1,16 +1,25 @@
-
+// JS-Fundamentals/4-concat.js
+// This script concatenates two command line arguments and prints them.
+// If no arguments are provided, it will print "No arguments".
+// Usage: node concat.js arg1 arg2
 const args = process.argv.slice(2);
-const firstArg = args[0];
-const secondArg = args[1];
-function printArguments() {
-    if (firstArg && secondArg) {
-        console.log(`${firstArg} is ${secondArg}`);
-    } else if (firstArg) {
-        console.log(`${firstArg} is `);
-    } else if (secondArg) {
-        console.log(` is ${secondArg}`);
-    } else {
-        console.log("No arguments");
-    }
+if (args.length < 2) {
+    console.log("No arguments");
 }
-printArguments();
+else if (args.length === 2) {
+    const firstArg = args[0];
+    const secondArg = args[1];
+    console.log(`${firstArg} is concatenated with ${secondArg}`);
+}
+else if (args.length > 2) {
+    const firstArg = args[0];
+    const secondArg = args[1];
+    console.log(`${firstArg} is concatenated with ${secondArg}`);
+}
+else if (args.length === 1) {
+    console.log("No arguments");
+    console.log(`${firstArg} is concatenated with ${secondArg}`);
+}
+else {
+    console.log("No arguments");
+}
